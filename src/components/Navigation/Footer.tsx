@@ -12,16 +12,16 @@ export default function Footer() {
 
         <div className="flex gap-4 flex-wrap justify-center md:justify-end w-full md:w-auto">
 
-          <a href="mailto:serra.energy@iprj.uerj.br" className="flex justify-center items-center rounded-full hover:translate-y-[-2px] transition-transform duration-200 cursor-pointer">
+          <a href="mailto:sape@iprj.uerj.br" className="flex justify-center items-center rounded-full hover:translate-y-[-2px] transition-transform duration-200 cursor-pointer">
             <img src="/images/Email.svg" alt="Email" className="w-[26px] h-[26px]" />
           </a>
 
-          <a href="https://www.linkedin.com/showcase/serra-energy/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center rounded-full hover:translate-y-[-2px] transition-transform duration-200 cursor-pointer">
+          <a href="https://www.linkedin.com/showcase/sape-uerj/" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center rounded-full hover:translate-y-[-2px] transition-transform duration-200 cursor-pointer">
             <img src="/images/Linkedin.svg" alt="Linkedin" className="w-[26px] h-[26px]" />
           </a>
 
           <a
-            href="https://www.instagram.com/serraenergy/" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center rounded-full hover:translate-y-[-2px] transition-transform duration-200 cursor-pointer">
+            href="https://www.instagram.com/sape.uerj/" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center rounded-full hover:translate-y-[-2px] transition-transform duration-200 cursor-pointer">
             <img src="/images/Instagram.svg" alt="Instagram" className="w-[26px] h-[26px]" />
           </a>
 

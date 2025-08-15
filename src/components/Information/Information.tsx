@@ -7,13 +7,10 @@ export default function Information() {
                     {/* SOBRE NÓS */}
                     <div className="font-[Darker Grotesque] flex flex-col md:flex-row items-start mb-16">
                         <div className="flex flex-col flex-1 md:mr-8 mb-8 md:mb-0">
-                            <h1 className="text-[#45C484] font-bold mb-6 text-4xl sm:text-5xl">Sobre nós</h1>
+                            <h1 className="text-[#45C484] font-bold mb-6 text-4xl sm:text-5xl">O que é o evento?</h1>
                             <p className="text-justify text-2xl text-white font-[darker Grotesque] mb-6">
-                                O Capítulo Estudantil UERJ da SPE faz parte da Society of Petroleum Engineers (SPE),
-                                a maior associação mundial de profissionais no segmento upstream da indústria de óleo e gás,
-                                servindo gestores, engenheiros, cientistas e outros profissionais. Fundado em outubro de 2018,
-                                nosso capítulo tem como objetivo conectar estudantes da Universidade do Estado do Rio de Janeiro (UERJ) à indústria,
-                                promovendo aprendizado técnico, desenvolvimento profissional e networking.
+                                O SAPE - UERJ é um evento sem fins lucrativos, organizado por estudantes de engenharia da UERJ do Rio de Janeiro e Nova Friburgo.
+                                O evento busca apresentar aos estudantes e jovens profissionais da região serrana as novas tendências no mercado energético, bem como experiências com experts na área.
                             </p>
                         </div>
 
@@ -39,10 +36,10 @@ export default function Information() {
                         <div className="flex flex-col flex-1">
                             <h2 className="text-[#45C484] font-bold mb-6 text-4xl sm:text-5xl">A nossa missão</h2>
                             <p className="text-justify text-2xl text-white font-[darker Grotesque] mb-6">
-                                Nossa missão é coletar, disseminar e trocar conhecimento técnico sobre a exploração e produção de petróleo e gás,
-                                proporcionando oportunidades para que estudantes aprimorem suas competências e interajam com profissionais do setor.
-                                Por meio da organização e participação em eventos, como conferências, workshops, minicursos, visitas técnicas e atividades sociais,
-                                buscamos agregar valor à formação acadêmica e profissional de nossos membros.
+                                Nosso objetivo é disseminar conhecimento sobre a indústria energética e gerar interação e networking entre estudantes, 
+                                profissionais e empresas, buscando aproximar estudantes e instituições acadêmicas das empresas para criar uma ponte para estágios, 
+                                pesquisas e desenvolvimento de projetos. Para isso, trabalhamos para engajar diferentes públicos em discussões sobre o futuro, os desafios e tendências do setor, 
+                                e também promover o desenvolvimento profissional e técnico através de capacitação, cursos e palestras, com o intuito final de divulgar o impacto positivo do setor na economia e sociedade.
                             </p>
                         </div>
                     </div>
@@ -50,12 +47,12 @@ export default function Information() {
                     {/* EVENTO */}
                     <div className="flex flex-col md:flex-row items-start mb-16">
                         <div className="flex flex-col flex-1 md:mr-8 mb-8 md:mb-0">
-                            <h3 className="text-[#45C484] font-bold mb-6 text-4xl sm:text-5xl">O que é evento?</h3>
+                            <h3 className="text-[#45C484] font-bold mb-6 text-4xl sm:text-5xl">Planejamento do evento</h3>
                             <p className="text-justify text-2xl text-white font-[darker Grotesque] mb-6">
-                                O Serra Energy é um evento sem fins lucrativos, organizado por estudantes de engenharia da UERJ do Rio de Janeiro e Nova Friburgo.
-                                O evento busca apresentar aos estudantes e jovens profissionais da região serrana as novas tendências no mercado energético,
-                                bem como experiências com experts na área. Em 2025, será realizada a sua primeira edição, na cidade de Nova Friburgo,
-                                nos dias 10 a 13 de novembro.
+                                Nossa programação foi cuidadosamente elaborada para oferecer uma experiência completa de aprendizado e networking. Ao longo do evento, você poderá participar de palestras ministradas por especialistas da indústria, 
+                                que compartilharão conhecimento e apresentarão as mais recentes inovações do setor.
+                                Também teremos cursos práticos voltados à capacitação em áreas estratégicas, como bombas e turbocompressores, além de desenvolver habilidades interpessoais essenciais, incluindo soft skills e inteligência emocional.
+                                Para promover a troca de ideias e perspectivas, realizaremos uma mesa redonda, proporcionando um espaço aberto para discutir os desafios e as tendências que moldam o futuro da indústria.
                             </p>
                         </div>
 

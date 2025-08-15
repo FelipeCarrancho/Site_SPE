@@ -39,11 +39,11 @@ export default function Join() {
                     <div className="max-w-lg">
                         <div className="font-['Darker_Grotesque'] flex flex-col items-center md:items-start">
                             <div className="flex items-center mb-6">
-                                <img src="/images/SPE-Black.svg" alt="Logo SPE" className="w-30 h-30 mr-4"/>
+                                <img src="/images/SPE-White.svg" alt="Logo SPE Branca" className="w-30 h-30 mr-4"/>
                                 <h2 className="text-6xl text-center font-bold text-[#0A3C4B]">Sobre a SPE</h2>
                             </div>
                             <p className="mb-6 text-justify text-lg leading-relaxed font-semibold">
-                            A Society of Petroleum Engineers (SPE) é maior associação mundial de profissionais (+ de 156.000 profissionais e 72.000 estudantes) no segmento upstream da indústria de óleo e gás, servindo gestores, engenheiros, cientistas e outros profissionais. É uma entidade neutra, apolítica e sem fins lucrativos baseada na doação voluntária de tempo, talento e conhecimento por parte dos seus membros, profissionais da indústria de petróleo em toda a cadeia produtiva.
+                            A Society of Petroleum Engineers (SPE) impulsiona o avanço técnico e inovação, na indústria de petróleo, gás e energia, promovendo crescimento técnico e desenvolvimento na carreira.
                             </p>
                             
                             <a 
@@ -52,6 +52,24 @@ export default function Join() {
                             </a>
                         </div>
                     </div>
+
+                    <div className="max-w-lg">
+                        <div className="font-['Darker_Grotesque'] flex flex-col items-center md:items-start">
+                            <div className="flex items-center mb-6">
+                                <img src="/images/LogoAAPG.svg" alt="Logo AAPG" className="w-30 h-30 mr-4"/>
+                                <h2 className="text-6xl text-center font-bold text-[#0A3C4B]">Sobre a AAPG</h2>
+                            </div>
+                            <p className="mb-6 text-justify text-lg leading-relaxed font-semibold">
+                            O propósito original da AAPG (American Association of Petroleum Geologists) é fomentar a pesquisa científica, promover a ciência da geologia, a tecnologia e inspirar uma conduta profissional de alto nível.
+                            </p>
+                            
+                            <a 
+                            href="#" className="bg-[#0A3C4B] text-white px-6 py-2 rounded-full font-medium hover:bg-[#002233] transition-colors">
+                                AFILIE-SE
+                            </a>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>

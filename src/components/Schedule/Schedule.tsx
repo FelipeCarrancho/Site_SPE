@@ -74,14 +74,14 @@ export default function Schedule() {
             <div className="flip-front absolute inset-0 bg-[#2D875A] flex flex-col justify-end rounded-[30px] p-[5px] overflow-hidden">
               <div className="absolute bottom-[-90px] left-[-60px] w-[150px] h-[250px] bg-[#39A26D] rotate-[-45deg] z-0"></div>
               <div className="absolute top-[20px] right-[2px] -rotate-90 text-white text-[10px]">
-                SERRA<br />ENERGY
+                SAPE <br/> UERJ
               </div>
               <div className="absolute top-[15px] left-0 right-0 flex justify-between px-[70px]">
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
               </div>
               <div className="flex justify-center items-center flex-grow pt-[110px]">
-                <img className="h-[110px]" src="/images/LogoCard.svg" alt="Logo card Serra Energy" />
+                <img className="h-[110px]" src="/images/Logo2.svg" alt="Logo Sape-Uerj" />
               </div>
               <div className="text-right mb-[30px]">
                 <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">SEGUNDA</h1>
@@ -134,14 +134,14 @@ export default function Schedule() {
             <div className="flip-front absolute inset-0 bg-[#0A3C4B] flex flex-col justify-end rounded-[30px] p-[5px] overflow-hidden">
               <div className="absolute bottom-[-90px] left-[-60px] w-[150px] h-[250px] bg-[#125A70] rotate-[-45deg] z-0"></div>
               <div className="absolute top-[20px] right-[2px] -rotate-90 text-white text-[10px]">
-                SERRA<br />ENERGY
+                SAPE <br/> UERJ
               </div>
               <div className="absolute top-[15px] left-0 right-0 flex justify-between px-[70px]"> 
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
               </div>
               <div className="flex justify-center items-center flex-grow pt-[110px]">
-                <img className="h-[110px]" src="/images/LogoCard.svg" alt="Logo card Serra Energy" />
+                <img className="h-[110px]" src="/images/Logo2.svg" alt="Logo Sape-Uerj" />
               </div>
               <div className="text-right mb-[30px]">
                 <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">TERÇA</h1>
@@ -194,14 +194,14 @@ export default function Schedule() {
             <div className="flip-front absolute inset-0 bg-[#2D875A] flex flex-col justify-end rounded-[30px] p-[5px] overflow-hidden">
               <div className="absolute bottom-[-90px] left-[-60px] w-[150px] h-[250px] bg-[#39A26D] rotate-[-45deg] z-0"></div>
               <div className="absolute top-[20px] right-[2px] -rotate-90 text-white text-[10px]">
-                SERRA<br />ENERGY
+                SAPE <br/> UERJ
               </div>
               <div className="absolute top-[15px] left-0 right-0 flex justify-between px-[70px]">
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
               </div>
               <div className="flex justify-center items-center flex-grow pt-[110px]">
-                <img className="h-[110px]" src="/images/LogoCard.svg" alt="Logo card Serra Energy" />
+                <img className="h-[110px]" src="/images/Logo2.svg" alt="Logo Sape-Uerj" />
               </div>
               <div className="text-right mb-[30px]">
                 <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">QUARTA</h1>
@@ -254,14 +254,14 @@ export default function Schedule() {
             <div className="flip-front absolute inset-0 bg-[#0A3C4B] flex flex-col justify-end rounded-[30px] p-[5px] overflow-hidden">
               <div className="absolute bottom-[-90px] left-[-60px] w-[150px] h-[250px] bg-[#125A70] rotate-[-45deg] z-0"></div>
               <div className="absolute top-[20px] right-[2px] -rotate-90 text-white text-[10px]">
-                SERRA<br />ENERGY
+                SAPE <br/> UERJ
               </div>
               <div className="absolute top-[15px] left-0 right-0 flex justify-between px-[70px]">
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
               </div>
               <div className="flex justify-center items-center flex-grow pt-[110px]">
-                <img className="h-[110px]" src="/images/LogoCard.svg" alt="Logo card Serra Energy" />
+                <img className="h-[110px]" src="/images/Logo2.svg" alt="Logo Sape-Uerj" />
               </div>
               <div className="text-right mb-[30px]">
                 <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">QUINTA</h1>
