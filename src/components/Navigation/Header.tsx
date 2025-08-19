@@ -23,7 +23,7 @@ export default function Header() {
   };
 
   return (
-    <header className="flex flex-wrap justify-between items-center px-4 py-4 bg-white border-b border-gray-200 relative z-50">
+    <header className="flex flex-wrap justify-between items-center px-1 py-1 bg-white border-b border-gray-200 relative z-50">
       <button
         onClick={() => navigate('/')}
         className="font-['Bebas_Neue'] flex items-center gap-2.5 ml-4 lg:ml-[103px] hover:opacity-80"

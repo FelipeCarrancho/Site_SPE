@@ -17,8 +17,13 @@ const Sponsors: React.FC = () => {
           <div className="flex justify-center " >
               <img src="/images/SPE.svg"
                 alt="Logo SPE"
-                className="w-[200px]"/>
-            </div> 
+                className="w-[180px]"/>
+              <img src="/images/LogoAAPG.svg"
+                alt="Logo AAPG"
+                className="w-[320px] ml-[200px]"/>
+                
+            </div>
+
         </section>
 
         <section className="mb-12 text-center">
