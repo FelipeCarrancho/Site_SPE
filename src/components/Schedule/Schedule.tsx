@@ -39,22 +39,39 @@ export default function Schedule() {
 
       <div className="w-full flex flex-col justify-center items-center flex-wrap gap-8 sm:py-32 sm:gap-10 md:flex-row md:gap-16 bg-[#D5E7DE] px-4 py-12">
         {/* Segunda-feira */}
-        <div className="flip-container w-full max-w-xs sm:max-w-sm md:max-w-[330px] h-[414px]" onClick={() => toggleCard('segunda')}>
-          <div className={`flip-card w-full h-full relative ${flippedCards.segunda ? 'flipped clicked' : ''}`}>
+        <div
+          className="flip-container w-full max-w-xs sm:max-w-sm md:max-w-[330px] h-[414px]"
+          onClick={() => toggleCard("segunda")}
+        >
+          <div
+            className={`flip-card w-full h-full relative ${
+              flippedCards.segunda ? "flipped clicked" : ""
+            }`}
+          >
             {/* Frente */}
             <div className="flip-front absolute inset-0 bg-[#2D875A] flex flex-col justify-end rounded-[30px] p-[5px] overflow-hidden">
               <div className="absolute bottom-[-90px] left-[-60px] w-[150px] h-[250px] bg-[#39A26D] rotate-[-45deg] z-0"></div>
-              <div className="absolute top-[20px] right-[2px] -rotate-90 text-white text-[10px]">SAPE <br /> UERJ</div>
+              <div className="absolute top-[20px] right-[2px] -rotate-90 text-white text-[10px]">
+                SAPE <br /> UERJ
+              </div>
               <div className="absolute top-[15px] left-0 right-0 flex justify-between px-[70px]">
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
               </div>
               <div className="flex justify-center items-center flex-grow pt-[110px]">
-                <img className="h-[110px]" src="/images/Logo2.svg" alt="Logo Sape-Uerj" />
+                <img
+                  className="h-[110px]"
+                  src="/images/Logo2.svg"
+                  alt="Logo Sape-Uerj"
+                />
               </div>
               <div className="text-right mb-[30px]">
-                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">SEGUNDA</h1>
-                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">FEIRA</h1>
+                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">
+                  SEGUNDA
+                </h1>
+                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">
+                  FEIRA
+                </h1>
               </div>
             </div>
             {/* Verso */}
@@ -64,27 +81,29 @@ export default function Schedule() {
                   <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                   <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                 </div>
-                <h3 className="text-[24px] font-bold mt-4 mb-4">SEGUNDA-FEIRA</h3>
+                <h3 className="text-[24px] font-bold mt-4 mb-4">
+                  SEGUNDA-FEIRA
+                </h3>
                 <div className="space-y-3 text-[14px]">
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">09:00 - 10:00</p>
-                    <p>Credenciamento</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">10:00 - 11:30</p>
-                    <p>Palestra Inaugural</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">11:30 - 12:00</p>
-                    <p>Coffee Break</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">12:00 - 13:30</p>
-                    <p>Workshop Energia Solar</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div>
                     <p className="font-semibold">13:30 - 14:30</p>
-                    <p>Almoço</p>
+                    <p>Novidades em breve</p>
                   </div>
                 </div>
               </div>
@@ -93,22 +112,39 @@ export default function Schedule() {
         </div>
 
         {/* Terça-feira */}
-        <div className="flip-container w-full max-w-xs sm:max-w-sm md:max-w-[330px] h-[414px]" onClick={() => toggleCard('terca')}>
-          <div className={`flip-card w-full h-full relative ${flippedCards.terca ? 'flipped clicked' : ''}`}>
+        <div
+          className="flip-container w-full max-w-xs sm:max-w-sm md:max-w-[330px] h-[414px]"
+          onClick={() => toggleCard("terca")}
+        >
+          <div
+            className={`flip-card w-full h-full relative ${
+              flippedCards.terca ? "flipped clicked" : ""
+            }`}
+          >
             {/* Frente */}
             <div className="flip-front absolute inset-0 bg-[#0A3C4B] flex flex-col justify-end rounded-[30px] p-[5px] overflow-hidden">
               <div className="absolute bottom-[-90px] left-[-60px] w-[150px] h-[250px] bg-[#125A70] rotate-[-45deg] z-0"></div>
-              <div className="absolute top-[20px] right-[2px] -rotate-90 text-white text-[10px]">SAPE <br /> UERJ</div>
+              <div className="absolute top-[20px] right-[2px] -rotate-90 text-white text-[10px]">
+                SAPE <br /> UERJ
+              </div>
               <div className="absolute top-[15px] left-0 right-0 flex justify-between px-[70px]">
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
               </div>
               <div className="flex justify-center items-center flex-grow pt-[110px]">
-                <img className="h-[110px]" src="/images/Logo2.svg" alt="Logo Sape-Uerj" />
+                <img
+                  className="h-[110px]"
+                  src="/images/Logo2.svg"
+                  alt="Logo Sape-Uerj"
+                />
               </div>
               <div className="text-right mb-[30px]">
-                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">TERÇA</h1>
-                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">FEIRA</h1>
+                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">
+                  TERÇA
+                </h1>
+                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">
+                  FEIRA
+                </h1>
               </div>
             </div>
             {/* Verso */}
@@ -122,23 +158,23 @@ export default function Schedule() {
                 <div className="space-y-3 text-[14px]">
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">09:00 - 10:30</p>
-                    <p>Energia Eólica</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">10:30 - 11:00</p>
-                    <p>Coffee Break</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">11:00 - 12:30</p>
-                    <p>Mesa Redonda</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">12:30 - 14:00</p>
-                    <p>Almoço</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div>
                     <p className="font-semibold">14:00 - 15:30</p>
-                    <p>Painéis Fotovoltaicos</p>
+                    <p>Novidades em breve</p>
                   </div>
                 </div>
               </div>
@@ -147,22 +183,39 @@ export default function Schedule() {
         </div>
 
         {/* Quarta-feira */}
-        <div className="flip-container w-full max-w-xs sm:max-w-sm md:max-w-[330px] h-[414px]" onClick={() => toggleCard('quarta')}>
-          <div className={`flip-card w-full h-full relative ${flippedCards.quarta ? 'flipped clicked' : ''}`}>
+        <div
+          className="flip-container w-full max-w-xs sm:max-w-sm md:max-w-[330px] h-[414px]"
+          onClick={() => toggleCard("quarta")}
+        >
+          <div
+            className={`flip-card w-full h-full relative ${
+              flippedCards.quarta ? "flipped clicked" : ""
+            }`}
+          >
             {/* Frente */}
             <div className="flip-front absolute inset-0 bg-[#2D875A] flex flex-col justify-end rounded-[30px] p-[5px] overflow-hidden">
               <div className="absolute bottom-[-90px] left-[-60px] w-[150px] h-[250px] bg-[#39A26D] rotate-[-45deg] z-0"></div>
-              <div className="absolute top-[20px] right-[2px] -rotate-90 text-white text-[10px]">SAPE <br /> UERJ</div>
+              <div className="absolute top-[20px] right-[2px] -rotate-90 text-white text-[10px]">
+                SAPE <br /> UERJ
+              </div>
               <div className="absolute top-[15px] left-0 right-0 flex justify-between px-[70px]">
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
               </div>
               <div className="flex justify-center items-center flex-grow pt-[110px]">
-                <img className="h-[110px]" src="/images/Logo2.svg" alt="Logo Sape-Uerj" />
+                <img
+                  className="h-[110px]"
+                  src="/images/Logo2.svg"
+                  alt="Logo Sape-Uerj"
+                />
               </div>
               <div className="text-right mb-[30px]">
-                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">QUARTA</h1>
-                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">FEIRA</h1>
+                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">
+                  QUARTA
+                </h1>
+                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">
+                  FEIRA
+                </h1>
               </div>
             </div>
             {/* Verso */}
@@ -172,27 +225,29 @@ export default function Schedule() {
                   <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                   <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                 </div>
-                <h3 className="text-[24px] font-bold mt-4 mb-4">QUARTA-FEIRA</h3>
+                <h3 className="text-[24px] font-bold mt-4 mb-4">
+                  QUARTA-FEIRA
+                </h3>
                 <div className="space-y-3 text-[14px]">
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">09:00 - 10:30</p>
-                    <p>Biomassa e Biogás</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">10:30 - 11:00</p>
-                    <p>Coffee Break</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">11:00 - 12:30</p>
-                    <p>Eficiência Energética</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">12:30 - 14:00</p>
-                    <p>Almoço</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div>
                     <p className="font-semibold">14:00 - 15:30</p>
-                    <p>Smart Grid</p>
+                    <p>Novidades em breve</p>
                   </div>
                 </div>
               </div>
@@ -201,22 +256,39 @@ export default function Schedule() {
         </div>
 
         {/* Quinta-feira */}
-        <div className="flip-container w-full max-w-xs sm:max-w-sm md:max-w-[330px] h-[414px]" onClick={() => toggleCard('quinta')}>
-          <div className={`flip-card w-full h-full relative ${flippedCards.quinta ? 'flipped clicked' : ''}`}>
+        <div
+          className="flip-container w-full max-w-xs sm:max-w-sm md:max-w-[330px] h-[414px]"
+          onClick={() => toggleCard("quinta")}
+        >
+          <div
+            className={`flip-card w-full h-full relative ${
+              flippedCards.quinta ? "flipped clicked" : ""
+            }`}
+          >
             {/* Frente */}
             <div className="flip-front absolute inset-0 bg-[#0A3C4B] flex flex-col justify-end rounded-[30px] p-[5px] overflow-hidden">
               <div className="absolute bottom-[-90px] left-[-60px] w-[150px] h-[250px] bg-[#125A70] rotate-[-45deg] z-0"></div>
-              <div className="absolute top-[20px] right-[2px] -rotate-90 text-white text-[10px]">SAPE <br /> UERJ</div>
+              <div className="absolute top-[20px] right-[2px] -rotate-90 text-white text-[10px]">
+                SAPE <br /> UERJ
+              </div>
               <div className="absolute top-[15px] left-0 right-0 flex justify-between px-[70px]">
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                 <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
               </div>
               <div className="flex justify-center items-center flex-grow pt-[110px]">
-                <img className="h-[110px]" src="/images/Logo2.svg" alt="Logo Sape-Uerj" />
+                <img
+                  className="h-[110px]"
+                  src="/images/Logo2.svg"
+                  alt="Logo Sape-Uerj"
+                />
               </div>
               <div className="text-right mb-[30px]">
-                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">QUINTA</h1>
-                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">FEIRA</h1>
+                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">
+                  QUINTA
+                </h1>
+                <h1 className="text-white text-[54px] font-bold m-0 leading-[1.2]">
+                  FEIRA
+                </h1>
               </div>
             </div>
             {/* Verso */}
@@ -226,34 +298,35 @@ export default function Schedule() {
                   <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                   <div className="w-[25px] h-[25px] bg-white rounded-full"></div>
                 </div>
-                <h3 className="text-[24px] font-bold mt-4 mb-4">QUINTA-FEIRA</h3>
+                <h3 className="text-[24px] font-bold mt-4 mb-4">
+                  QUINTA-FEIRA
+                </h3>
                 <div className="space-y-3 text-[14px]">
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">09:00 - 10:30</p>
-                    <p>Armazenamento de Energia</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">10:30 - 11:00</p>
-                    <p>Coffee Break</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">11:00 - 12:30</p>
-                    <p>Micro e Mini Geração</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div className="border-b border-white/20 pb-2">
                     <p className="font-semibold">12:30 - 14:00</p>
-                    <p>Almoço</p>
+                    <p>Novidades em breve</p>
                   </div>
                   <div>
                     <p className="font-semibold">14:00 - 16:00</p>
-                    <p>Encerramento e Networking</p>
+                    <p>Novidades em breve</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );
