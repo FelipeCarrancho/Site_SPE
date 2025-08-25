@@ -6,7 +6,7 @@ export default function Footer() {
 
         <div className="text-base leading-snug text-center md:text-left w-full md:w-auto">
           <p className="m-0">
-            Todos os direitos reservados © 2025 desenvolvido por Puyol, Carrancho e Braido
+            Todos os direitos reservados © 2025
           </p>
         </div>
 
@@ -25,10 +25,7 @@ export default function Footer() {
             <img src="/images/Instagram.svg" alt="Instagram" className="w-[26px] h-[26px]" />
           </a>
 
-          <a
-            href="#" className="flex justify-center items-center rounded-full hover:translate-y-[-2px] transition-transform duration-200 cursor-pointer">
-            <img src="/images/Whatsapp.svg" alt="Whatsapp" className="w-[26px] h-[26px]" />
-          </a>
+         
 
         </div>
       </div>
