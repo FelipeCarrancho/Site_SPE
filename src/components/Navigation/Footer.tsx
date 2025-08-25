@@ -6,7 +6,7 @@ export default function Footer() {
 
         <div className="text-base leading-snug text-center md:text-left w-full md:w-auto">
           <p className="m-0">
-            Todos os direitos reservados © 2025
+            Desenvolvido por Serra Jr. Engenharia, todos os direitos reservados © 2025 
           </p>
         </div>
 
